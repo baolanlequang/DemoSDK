@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DemoSDK'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of DemoSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -23,15 +23,17 @@ TODO: Add long description of the pod here.
 
   s.homepage         = 'https://github.com/baolanlequang/DemoSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  # s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license      = "MIT"
   s.author           = { 'baolan2005' => 'baolan2005@gmail.com' }
-  s.source           = { :http => 'https://github.com/baolanlequang/DemoSDK/blob/master/DemoWebViewSDK.zip'}
+  s.source           = { :http => 'https://github.com/baolanlequang/DemoSDK/archive/refs/tags/0.0.1.zip'}
+  #s.source       = { :git => "https://github.com/baolanlequang/DemoSDK.git", :tag => "#{s.version}" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  # s.source_files = 'Headers/*.h'
-  s.ios.vendored_frameworks = 'DemoWebViewSDK.framework'
+  # s.source_files = '*.h'
+  s.ios.vendored_frameworks = 'DemoWebViewSDK.xcframework'
   
   # s.resource_bundles = {
   #   'DemoSDK' => ['DemoSDK/Assets/*.png']
