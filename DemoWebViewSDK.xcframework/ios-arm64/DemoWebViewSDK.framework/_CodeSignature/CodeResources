@@ -6,11 +6,15 @@
 	<dict>
 		<key>Headers/DemoWebViewSDK.h</key>
 		<data>
-		5Ueqs1I/N0AFAjq7T8XVKkXMN/U=
+		yr4wpvHiWL1ctfV0SZM6nrjXAoA=
 		</data>
 		<key>Headers/MTDController.h</key>
 		<data>
 		1bEzFliSkyCXgRIVY3USwIaKwmE=
+		</data>
+		<key>Headers/MTDUtils.h</key>
+		<data>
+		UtCTdoZj2zo1ul3j+Ea3WN/Nt2c=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -27,7 +31,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			00h3SfoNCr0yRK+avY4Tf6SWW99jQFNIRkdbyg1b95s=
+			WrqHwbAQGbNEAqDQ0QkWiMDoNuiYnn3HwhBJ0Q4+RRQ=
 			</data>
 		</dict>
 		<key>Headers/MTDController.h</key>
@@ -35,6 +39,13 @@
 			<key>hash2</key>
 			<data>
 			Fbmnmt9pnGAV62xaQ9GB9zTWAcWjzYxnCsPm+Emujso=
+			</data>
+		</dict>
+		<key>Headers/MTDUtils.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZhuDwZymWmOpCNrRNF8+qBKRo5zAh3MUJBljPvGI+1I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

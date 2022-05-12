@@ -4,21 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/DemoWebViewSDK.h</key>
+		<key>Resources/Info.plist</key>
 		<data>
-		5Ueqs1I/N0AFAjq7T8XVKkXMN/U=
-		</data>
-		<key>Headers/MTDController.h</key>
-		<data>
-		1bEzFliSkyCXgRIVY3USwIaKwmE=
-		</data>
-		<key>Info.plist</key>
-		<data>
-		jCYhT/aeq0dgOkXbBsPPS5JRn50=
-		</data>
-		<key>Modules/module.modulemap</key>
-		<data>
-		dT/A2ui550zZ4xjzRMo9zt4qXWI=
+		LxWDFMPzm6LrvWzOnCuo79ZNJZo=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -27,7 +15,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			00h3SfoNCr0yRK+avY4Tf6SWW99jQFNIRkdbyg1b95s=
+			WrqHwbAQGbNEAqDQ0QkWiMDoNuiYnn3HwhBJ0Q4+RRQ=
 			</data>
 		</dict>
 		<key>Headers/MTDController.h</key>
@@ -37,6 +25,13 @@
 			Fbmnmt9pnGAV62xaQ9GB9zTWAcWjzYxnCsPm+Emujso=
 			</data>
 		</dict>
+		<key>Headers/MTDUtils.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZhuDwZymWmOpCNrRNF8+qBKRo5zAh3MUJBljPvGI+1I=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
@@ -44,26 +39,33 @@
 			9C31UQh8zQW2U2g2zW8w2RvdYAlrA9+rAh7wvTvfYyg=
 			</data>
 		</dict>
+		<key>Resources/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AXD8MlNCf31DBw2O63WNEaRAkvgmfraGZuuS/9wPzJ4=
+			</data>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^.*</key>
+		<key>^Resources/</key>
 		<true/>
-		<key>^.*\.lproj/</key>
+		<key>^Resources/.*\.lproj/</key>
 		<dict>
 			<key>optional</key>
 			<true/>
 			<key>weight</key>
 			<real>1000</real>
 		</dict>
-		<key>^.*\.lproj/locversion.plist$</key>
+		<key>^Resources/.*\.lproj/locversion.plist$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
 		</dict>
-		<key>^Base\.lproj/</key>
+		<key>^Resources/Base\.lproj/</key>
 		<dict>
 			<key>weight</key>
 			<real>1010</real>
@@ -85,27 +87,15 @@
 			<key>weight</key>
 			<real>2000</real>
 		</dict>
+		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
 		<key>^.*</key>
 		<true/>
-		<key>^.*\.lproj/</key>
-		<dict>
-			<key>optional</key>
-			<true/>
-			<key>weight</key>
-			<real>1000</real>
-		</dict>
-		<key>^.*\.lproj/locversion.plist$</key>
-		<dict>
-			<key>omit</key>
-			<true/>
-			<key>weight</key>
-			<real>1100</real>
-		</dict>
-		<key>^Base\.lproj/</key>
-		<dict>
-			<key>weight</key>
-			<real>1010</real>
-		</dict>
 		<key>^Info\.plist$</key>
 		<dict>
 			<key>omit</key>
@@ -119,6 +109,37 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
+		</dict>
+		<key>^Resources/</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^Resources/.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^Resources/.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
+		</dict>
+		<key>^[^/]+$</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>

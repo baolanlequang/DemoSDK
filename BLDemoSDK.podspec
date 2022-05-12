@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BLDemoSDK'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'A short description of DemoSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -35,10 +35,10 @@ TODO: Add long description of the pod here.
   s.source_files = '**/*.{h}'
   s.ios.vendored_frameworks = "DemoWebViewSDK.xcframework"
   s.xcconfig = {'VALID_ARCHS' =>  'x86_64' }
-s.xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
-s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
   # s.resource_bundles = {
   #   'DemoSDK' => ['DemoSDK/Assets/*.png']
