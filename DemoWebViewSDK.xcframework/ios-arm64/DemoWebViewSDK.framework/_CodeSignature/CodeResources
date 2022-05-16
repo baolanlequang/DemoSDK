@@ -14,11 +14,19 @@
 		</data>
 		<key>Headers/MTDUtils.h</key>
 		<data>
-		UtCTdoZj2zo1ul3j+Ea3WN/Nt2c=
+		N+63IOCBQ7UjEJrMkegOdWsgSnY=
+		</data>
+		<key>Headers/SSZipArchive.h</key>
+		<data>
+		av6ZHVQfw/VJ5dGigWIKx3kcP4A=
 		</data>
 		<key>Info.plist</key>
 		<data>
 		jCYhT/aeq0dgOkXbBsPPS5JRn50=
+		</data>
+		<key>LICENSE</key>
+		<data>
+		F6LTl+RBugQ3i5tHJ0u0h632bEQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -27,6 +35,11 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/Security.framework/Versions/Current</key>
+		<dict>
+			<key>symlink</key>
+			<string>A</string>
+		</dict>
 		<key>Headers/DemoWebViewSDK.h</key>
 		<dict>
 			<key>hash2</key>
@@ -45,7 +58,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZhuDwZymWmOpCNrRNF8+qBKRo5zAh3MUJBljPvGI+1I=
+			odLRiR+R7DYeIM+49XRNJWb/gbCOr/WsTbiOH/8h3PU=
+			</data>
+		</dict>
+		<key>Headers/SSZipArchive.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Bs7miCMTRQQ96JYVFEoJyORr1eEw8KLY7bKT7SYcFRw=
+			</data>
+		</dict>
+		<key>LICENSE</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Z1GBwD/BMCochVTAD3vpu0IMXbydzCATQzzsFEQT3gM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
